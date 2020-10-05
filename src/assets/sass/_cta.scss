@@ -4,7 +4,8 @@
   background-color: fade-out($primary, 0.1);
   .cta-inner {
     position: relative;
-    padding: 3rem;
+    // padding: 3rem;
+    min-height: 400px;
     margin: 0.5rem;
     background-color: fade-out($white, 0.15);
     &:before {
@@ -17,6 +18,13 @@
       right: -0.5rem;
       border: 0.25rem solid fade-out($white, 0.15);
       z-index: -1;
+    }
+    iframe {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
     }
   }
 }

@@ -33,8 +33,16 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Casual' },
-                { name: 'keywords', content: 'site, web' },
+                {
+                  name: 'description',
+                  content:
+                    '晨星咖啡，一家溫暖的咖啡館！提供內用外帶咖啡，以及咖啡耳掛和咖啡豆',
+                },
+                {
+                  name: 'keywords',
+                  content:
+                    '晨星咖啡, Morning Star Coffee, 咖啡耳掛, 咖啡豆, 義式咖啡,手沖咖啡',
+                },
               ]}
             >
               <html lang="en" />
