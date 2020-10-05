@@ -11,36 +11,36 @@ export default function Contact() {
   return (
     <section className="page-section cta">
       <div className="container">
-        <div className="row justify-content-md-center">
+        <div className="row justify-content-center">
           <a
             href="https://www.facebook.com/101399111690101/"
             target="_blank"
             rel="noreferrer"
             title="Facebook"
-            className="col-md-auto link"
+            className="col-auto link"
           >
             <FontAwesomeIcon icon={faFacebook} size="2x" />
-            Facebook
+            <span className="d-none d-sm-inline">Facebook</span>
           </a>
           <a
             href="https://www.instagram.com/morning_star_coffee/"
             target="_blank"
             rel="noreferrer"
             title="Instagram"
-            className="col-md-auto link"
+            className="col-auto link"
           >
             <FontAwesomeIcon icon={faInstagram} size="2x" />
-            Instagram
+            <span className="d-none d-sm-inline">Instagram</span>
           </a>
           <a
             href="https://www.instagram.com/morning_star_coffee/"
             target="_blank"
             rel="noreferrer"
             title="Line"
-            className="col-md-auto link"
+            className="col-auto link"
           >
             <FontAwesomeIcon icon={faLine} size="2x" />
-            Line
+            <span className="d-none d-sm-inline">Line</span>
           </a>
         </div>
       </div>

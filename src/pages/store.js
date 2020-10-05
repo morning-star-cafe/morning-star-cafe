@@ -3,12 +3,15 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Contact from '../components/Contact';
 
+import menu1 from '../assets/images/menu-left.jpg';
+import menu2 from '../assets/images/menu-right.jpg';
+
 const IndexPage = () => (
   <Layout activeLink="store">
     <section className="page-section cta">
       <div className="container">
         <div className="row">
-          <div className="col-xl-9 mx-auto">
+          <div className="col-xl-9 mx-auto contentWrapper">
             <div className="cta-inner text-center rounded content">
               <h2 className="section-heading mb-5">
                 <span className="section-heading-upper">Come On In</span>
@@ -40,6 +43,23 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <section className="page-section about-heading">
+      <div className="container">
+        <div className="row mb-4">
+          <div className="col-xl-4 col-lg-6 mx-auto">
+            <div className="bg-faded rounded p-5">
+              <h2 className="section-heading text-center">
+                <span className="section-heading-lower">MENU</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <img className="col-xl-6" src={menu1} alt="menu" />
+          <img className="col-xl-6" src={menu2} alt="menu" />
         </div>
       </div>
     </section>

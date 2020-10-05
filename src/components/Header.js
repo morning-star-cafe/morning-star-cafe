@@ -22,7 +22,8 @@ export default class Header extends Component {
             className="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none"
             href="/#"
           >
-            {config.siteTitle}
+            <span>{config.heading}</span>
+            <span className="d-none d-sm-inline">・{config.subHeading}</span>
           </a>
 
           <button
